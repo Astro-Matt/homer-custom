@@ -124,6 +124,8 @@
               />
             </div>
           </div>
+         <!-- Optional message-box -->
+          <Messagebox :item="config.message" />
         </div>
       </div>
     </section>
